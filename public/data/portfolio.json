@@ -47,9 +47,14 @@
     ],
     "education": [
       {
-        "institution": "University of Stirling",
-        "degree": "MSc Big Data",
-        "dates": "2018 – 2019"
+    "institution": "University of Stirling",
+    "degree": "MSc Computing Science",
+    "dates": "2018 – 2019"
+    },
+      {
+    "institution": "COMSATS University Islamabad",
+    "degree": "BS in Software Engineering",
+    "dates": "2013 – 2017"
       }
     ],
     "projects": [
