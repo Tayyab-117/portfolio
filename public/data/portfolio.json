@@ -6,7 +6,7 @@
     "personalInfo": {
       "name": "Tayyub Yaqoob",
       "title": "Digital Analyst | AI/ML Solutions Engineer | Data & Crypto Enthusiast",
-      "summary": "I am a Digital Analyst with over 5 years of experience in analytics, automation, and AI/ML. I build scalable data pipelines, forecasting engines, anomaly detection systems, and crypto/DeFi insights. Beyond my role at 8 Million Stories, I freelance as a data consultant and write for Cointelegraph, while also pursuing FIRE through structured investing.",
+      "summary": "Digital Analyst with 5+ years of experience in data analytics, automation, and AI/ML. I deliver scalable pipelines, forecasting engines, MMM models, anomaly detection systems, and crypto/DeFi insights. I also freelance as a data consultant, write for Cointelegraph, and actively invest toward financial freedom.",
       "image": "/assets/default-avatar.png",
       "phone": "",
       "email": "tayyub@example.com",
@@ -17,34 +17,33 @@
         "company": "8 Million Stories (8MS)",
         "title": "Digital Analyst",
         "dates": "Nov 2022 – Present",
-        "description": "Lead analytics and AI/ML initiatives across organic and paid media teams. Deliver automation, forecasting, MMM, and anomaly detection solutions for major clients.",
+        "description": "Lead analytics and AI/ML projects for global clients across organic and paid media. Deliver AI-powered insights, automation, and forecasting.",
         "achievements": [
-          "Built 6 AI/ML Codex modules (Forecasting, Query Forecast, Sitemap Analysis, Anomaly Detection, Synergy Analysis, Sentiment Analysis).",
-          "Designed GA4 + BigQuery data pipelines with full automation.",
-          "Implemented Advanced Consent Mode V2, GA4 audits, and GTM RegEx automations.",
-          "Delivered Codex AI platform modules for 50+ global clients including BBC, Tesco Bank, and Gleneagles."
+          "Built 6 Codex AI modules (Forecasting, Query Forecast, Sitemap Analysis, Anomaly Detection, Synergy Analysis, Sentiment Analysis).",
+          "Implemented GA4 + BigQuery pipelines and automated reporting.",
+          "Delivered GA4 audits, Advanced Consent Mode V2, and GTM automation.",
+          "Worked on data retainers for Neilson Holidays, Clogau, Rivet Education, Tesco Bank, Royal London, and more."
         ]
       },
       {
         "company": "Freelance Data Consulting",
         "title": "Data & AI Consultant",
         "dates": "2019 – Present",
-        "description": "Delivering advanced data workflows, cloud deployments, and custom AI/ML models for agencies and businesses.",
+        "description": "Freelance consulting on advanced data workflows, GA4/GTM, AI/ML, and automation.",
         "achievements": [
-          "Scaled client-specific workloads using AWS Lambda, Fargate, and EC2.",
-          "Automated GA4 + CRM integrations with Supermetrics & BigQuery.",
-          "Built Looker Studio dashboards and MMM optimizations for paid media clients."
+          "Scaled client workloads using AWS Lambda, Fargate, and EC2.",
+          "Automated Looker Studio dashboards and MMM pipelines.",
+          "Delivered bespoke GA4 + CRM integrations for multiple clients."
         ]
       },
       {
         "company": "Cointelegraph",
         "title": "Contributor (as Callum Reid)",
         "dates": "2023 – Present",
-        "description": "Writing deep-dive articles on AI, crypto, and DeFi trends.",
+        "description": "Crypto/AI content writer publishing deep-dive research articles.",
         "achievements": [
-          "Published 25+ AI-crypto strategy guides with global readership.",
-          "Specialized in AI-powered crypto trading bots, stablecoin depegging analysis, and DeFi fraud prevention.",
-          "Content structured to match Cointelegraph’s editorial standards and SEO updates."
+          "Published 25+ articles on AI, DeFi, stablecoins, and crypto trading bots.",
+          "Specialized in AI-powered crypto trading, stablecoin depegging, and fraud detection."
         ]
       }
     ],
@@ -58,40 +57,93 @@
     "projects": [
       {
         "title": "Codex AI Modules",
-        "description": "A suite of 6 AI/ML modules: forecasting, anomaly detection, sentiment analysis, sitemap similarity, query forecasting, and synergy analysis — deployed for 50+ clients.",
-        "technologies": ["Python", "AWS Lambda", "Vertex AI", "BigQuery", "Vercel"],
+        "description": "6 AI/ML modules built at 8MS: forecasting (queries, traffic, GA4), anomaly detection, sentiment analysis, sitemap similarity, and synergy analysis.",
+        "technologies": ["Python", "BigQuery", "AWS Lambda", "Vertex AI", "Vercel"],
         "featured": true
       },
       {
-        "title": "Marketing Mix Modeling (Vertex AI)",
-        "description": "MMM budget optimization model built on Vertex AI, using holdout validation and predictive simulations to guide media spend decisions.",
-        "technologies": ["Python", "Vertex AI", "BigQuery", "Pandas"],
+        "title": "Marketing Mix Modeling (Meridian)",
+        "description": "MMM budget optimization model using Vertex AI with holdout validation and predictive simulations for clients like Turquoise Holidays and Northern.",
+        "technologies": ["Vertex AI", "BigQuery", "Python", "Pandas"],
         "featured": true
       },
       {
-        "title": "Crypto & AI Writing (Cointelegraph)",
-        "description": "Wrote 25+ long-form research-backed articles on AI in crypto, DeFi, and stablecoins under the editorial pseudonym Callum Reid.",
-        "technologies": ["AI research", "Crypto analysis", "SEO writing"],
+        "title": "Neilson Holidays Data Retainer",
+        "description": "Long-term analytics engagement including GA4 pipelines, anomaly detection, and forecasting of bookings and traffic trends.",
+        "technologies": ["BigQuery", "Python", "Looker Studio"],
+        "featured": false
+      },
+      {
+        "title": "Clogau & Clogau Outlet Analytics",
+        "description": "Integrated CRM data with GA4 dimensions, matching enquiries to bookings and automating reporting pipelines.",
+        "technologies": ["GA4", "BigQuery", "Supermetrics", "CRM APIs"],
+        "featured": false
+      },
+      {
+        "title": "Rivet Education Data Retainer",
+        "description": "Data retainer project including forecasting, sentiment analysis, and custom dashboards for education sector insights.",
+        "technologies": ["Python", "BigQuery", "AWS"],
+        "featured": false
+      },
+      {
+        "title": "Tesco Bank GA4 Retainer",
+        "description": "GA4 audits, GTM automation, anomaly detection, and MMM forecasting for banking data flows.",
+        "technologies": ["GA4", "BigQuery", "Python"],
+        "featured": false
+      },
+      {
+        "title": "Royal London Insights Retainer",
+        "description": "Created data pipelines for anomaly detection, query forecasting, and GA4 event audits for financial services.",
+        "technologies": ["Python", "Vertex AI", "BigQuery"],
+        "featured": false
+      },
+      {
+        "title": "Cointelegraph AI-Crypto Writing",
+        "description": "25+ published articles on AI/crypto trading, DeFi, fraud detection, and stablecoin analysis.",
+        "technologies": ["Research", "SEO", "Crypto Markets"],
         "featured": true
       },
       {
-        "title": "Investment Journey (PSX & FIRE Plan)",
-        "description": "Actively investing in PSX with index funds and dividend stocks, while targeting FIRE by age 35. Portfolio includes EFERT, MIIETF, and MZNPETF. Strategy combines reinvested dividends, long-term growth, and monthly contributions.",
+        "title": "Stablecoin Depegging Study",
+        "description": "Empirical research using CoinGecko API to study depegging behavior of USDT, USDC, and DAI between 2023–2025.",
+        "technologies": ["CoinGecko API", "Python", "Data Analysis"],
+        "featured": true
+      },
+      {
+        "title": "SaaS Side Projects",
+        "description": "Developing a CV builder SaaS, AI tools aggregator, and a free online games portal with affiliate monetization.",
+        "technologies": ["React", "Next.js", "Stripe", "Vercel"],
+        "featured": false
+      },
+      {
+        "title": "Investment & FIRE Journey",
+        "description": "Investing in PSX (EFERT, MIIETF, MZNPETF, MEBL, MARI, POL, NML) with a FIRE target by 35. Strategy combines dividends, index funds, and long-term growth.",
         "technologies": ["PSX Index Funds", "Dividend Reinvestment", "Financial Planning"],
         "featured": false
       },
       {
-        "title": "SaaS Side Projects",
-        "description": "Developing multiple SaaS/side projects including a CV builder, AI tools aggregator, and free-online-games portal with affiliate integrations.",
-        "technologies": ["React", "Next.js", "Vercel", "Stripe"],
+        "title": "Looker Forecast Dashboard",
+        "description": "Built a Looker dashboard comparing daily actuals vs forecasts for consumer/adviser/red routes traffic.",
+        "technologies": ["BigQuery", "Looker Studio", "Python"],
+        "featured": false
+      },
+      {
+        "title": "Sitemap Analysis Module",
+        "description": "Compares sitemap contents of 50–100 websites, calculates similarity scores, and outputs structured reports.",
+        "technologies": ["Python", "AWS", "SentenceTransformers"],
+        "featured": false
+      },
+      {
+        "title": "GA4 Superior Audit Template",
+        "description": "Comprehensive GA4 audit covering tracking, consent, traffic attribution, broken tags, custom events, and BigQuery integrations.",
+        "technologies": ["GA4", "GTM"],
         "featured": false
       }
     ],
     "skills": [
-      "Python", "BigQuery", "Vertex AI", "AWS Lambda & Fargate", 
-      "GA4 & GTM", "Looker Studio", "SQL", "Data Engineering",
-      "Forecasting", "Anomaly Detection", "AI/ML", "Automation",
-      "SEO & Paid Media Analytics", "Crypto & DeFi Research", "Content Writing"
+      "Python", "BigQuery", "Vertex AI", "AWS Lambda & Fargate", "GA4 & GTM", "Looker Studio",
+      "SQL", "Forecasting", "Anomaly Detection", "Automation", "MMM Modeling",
+      "SEO & Paid Media Analytics", "Crypto & DeFi Research", "Technical Writing"
     ],
     "socialLinks": {
       "github": "https://github.com/yourgithub",
@@ -103,8 +155,8 @@
     "insights": {
       "mostUsedLanguage": "Python",
       "preferredStack": "AI/ML + Cloud",
-      "learningFocus": "Health data science and NHS tech integration",
-      "careerTrajectory": "Transitioning from marketing analytics to health data science with a focus on NHS digital tools and clinical AI."
+      "learningFocus": "Health data science and NHS digital tools",
+      "careerTrajectory": "Scaling from marketing analytics into clinical/health data AI applications."
     },
     "techStack": [
       { "name": "Python", "icon": "🐍" },
