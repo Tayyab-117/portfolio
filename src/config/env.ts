@@ -88,7 +88,7 @@ export const SECTION_NUMBERS = {
 // Form Settings
 export const FORM_SETTINGS = {
     // Example Google Form URL - replace with actual form URL from .env
-    GOOGLE_FORM_URL: import.meta.env.VITE_GOOGLE_FORM_URL || 'https://docs.google.com/forms/d/e/1FAIpQLScJNBMiU714RJjpTokSEgVVFWI1Q0YGF1zc6vkOtwQLD38vTw/formResponse',
+    GOOGLE_FORM_URL: import.meta.env.VITE_GOOGLE_FORM_URL || 'https://docs.google.com/forms/d/1s2ydmZxU_xImVog0JHA241hversGldxv9ScwPQXUd38/preview',
     // Field IDs from the Google Form
     GOOGLE_FORM_NAME_FIELD: import.meta.env.VITE_GOOGLE_FORM_NAME_FIELD || 'entry.1234567890',
     GOOGLE_FORM_EMAIL_FIELD: import.meta.env.VITE_GOOGLE_FORM_EMAIL_FIELD || 'entry.0987654321',
